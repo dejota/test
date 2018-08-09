@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Test Players</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div id="container">
+                <h1>Show Players</h1>
+
+                <h3>Select player to show in which team he plays</h3>
+                <select data-placeholder="Select Team..." id="selectTeam" name="test">
+                    <option selected="true" disabled="disabled">Select</option>
+                    <option value="1">Player nº 1</option>
+                    <option value="2">Player nº 2</option>
+                    <option value="3">Player nº 3</option>
+                </select>
+                <div id="info">
+                    <div>Players of his team: </div><!--
+                 --><div id="data"></div>
+                    <div>Team: </div><!--
+                 --><div id="team"></div>
+                </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+</html>
